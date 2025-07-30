@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkorchid;
+    line-height: 1.7;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header{
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 14px;
+    top:0;
+}
+
+.links{
+    display: flex;
+    gap: 20px;;
+    list-style: none;
+}
+
+.links a{
+    text-decoration: none;
+    color: darkorchid;
+}
+
+.heading{
+    padding: 20px 50px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.heading p{
+    padding: 10px 0 0 0;
+    font-size: medium;
+    font-weight: 400;
+}
