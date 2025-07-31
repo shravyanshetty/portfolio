@@ -127,7 +127,7 @@ body{
 }
 button:hover{
     transform: translateY(-10px);
-    box-shadow: 0 6px 15px darkorchid;
+    box-shadow: 0 6px 15px rgb(60, 15, 82);
 }
 .btn a{
     text-decoration: none;
@@ -163,7 +163,7 @@ button{
 }
 .icons img:hover{
     transform: translateY(-10px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 6px 15px rgb(60, 15, 82);
 }
 
 
@@ -244,7 +244,7 @@ button{
 }
 .skill-list li:hover{
     transform: translateY(-10px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 6px 15px rgb(60, 15, 82);
 }
 .skill-cat{
     margin-bottom: 40px;
@@ -309,7 +309,7 @@ button{
 }
 .p1:hover{
     transform: translateY(-10px);
-    box-shadow: 0 6px 15px darkorchid;
+    box-shadow: 0 6px 15px rgb(60, 15, 82);
 }
 
 
