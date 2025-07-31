@@ -316,8 +316,70 @@ button{
 /*-------------------------------CONTACT--------------------*/
 
 #contact{
-    height: 100vh;
+    height: 70vh;
     padding-top: 4rem;
+}
+#contact h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 100%;
+    padding: 1rem;   
+    margin-bottom: 20px;
+}
+#contact p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 20px;
+    margin-bottom: 1rem;
+}
+#contact ul{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+    list-style: none;
+    gap: 1rem;
+}
+#contact li a{
+    display: flex;
+    text-decoration: none;
+    color: darkorchid;
+}
+#contact li{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    border: dotted;
+    transition: transform 0.5s ease;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+#contact ul a:hover{
+    color: rgb(220, 167, 255);
+}
+#contact li:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgb(60, 15, 82);
+}
 
- 
+/*------------footer-------------*/
+
+
+.foot{
+    display: flex;
+    color: darkorchid;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+    margin-bottom: 3px;
 }

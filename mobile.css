@@ -1,40 +1,158 @@
-@media (max-width:1200px){
-    #navbar{
-        display: none;
+@media (max-width: 1000px) {
 
-    }
-    #mobile{
-        display: flex;
-        align-items: flex-start;
-        display: flex;
-        background-color: rgb(255, 255, 255);
-        padding:20px 15px;
-        width: 100%;
-        margin: 0;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .menu-links{
-        flex-direction: column;
-        list-style: none;
-        height: 1rem;
-        background-color: white;
+  /* Navbar Fix */
+  #navbar {
+    display: none;
+  }
 
-    }
-   .menu-links a{
-        text-decoration: none;
-        color: darkorchid;
-        font-size: 1.2rem;
-        font-weight: 500;
-   }
-   .mobile-menu{
-        padding: 2rem;
-    }       
-    .navicon{
-        padding: 2rem;
-    }
-    .menu-links li{
-        height: 5rem;
-    }
+  #mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 20px;
+    width: 100%;
+    z-index: 1000;
+  }
 
+  .mobile-menu {
+    display: flex;
+    justify-content: space-between; /* KEY CHANGE */
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+  }
+
+  .logo {
+    font-size: 26px;
+    font-weight: 800;
+    color: darkorchid;
+  }
+
+  .navicon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 22px;
+    width: 20px;
+    cursor: pointer;
+    
+  }
+
+  .navicon span {
+    height: 3px;
+    width: 100%;
+    background-color: darkorchid;
+    border-radius: 3px;
+  }
+
+  .menu-links {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    font-size: 1.1rem;
+    width: 100%;
+    margin-top: 12rem;
+  }
+
+  .menu-links.active {
+    display: flex;
+  }
+
+  .menu-links li {
+    padding: 5px 0;
+  }
+
+  .menu-links li a {
+    text-decoration: none;
+    color: darkorchid;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .menu-links li a:hover {
+    color: rgb(46, 12, 82);
+    text-decoration: underline;
+    text-underline-offset: 8px;
+  }
+
+  /* Hero Section */
+  .heading {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .text {
+    font-size: 36px;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .text img {
+    width: 50%;
+    max-width: 200px;
+    border-radius: 100%;
+    padding: 10px;
+  }
+
+  /* About Section Fix */
+  #about {
+    padding: 20px 15px;
+  }
+
+  #about p {
+    padding: 0;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  /* Skills Section Fix */
+  #skill {
+    padding: 20px 15px;
+  }
+
+  #skill ul {
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+
+  #skill ul h3 {
+    font-size: 18px;
+  }
+
+  #skill ul li {
+    list-style: none;
+    margin: 5px 0;
+  }
+
+  /* Contact Section Cards */
+  #contact {
+    padding: 20px 15px;
+    height: 80vh;
+  }
+
+  #contact ul {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    gap: 15px;
+    margin-bottom: 4rem;
+  }
+
+  #contact .mail {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid darkorchid;
+    border-radius: 8px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 15px;
+    text-align: center;
+    margin-top: 9rem;
+  }
 }
