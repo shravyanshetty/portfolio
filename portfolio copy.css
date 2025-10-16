@@ -49,9 +49,37 @@ nav{
     text-underline-offset: 10px;
 }
 
- 
+/*-------------------LOGO--------------------------*/
 
- 
+.logo{
+    color: darkorchid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    align-items: center;
+    margin: 0;
+}
+
+
+/*-----------------------------MOBILE NAVIGATOIN--------------------*/
+
+
+#mobile{
+    display: none;
+}
+.mobile-menu{
+    position: relative;
+    display: inline-block;
+}
+.navicon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
 /*------------------------home page--------------------*/
 
 
@@ -149,8 +177,7 @@ button{
 
 #about{
     height: 100vh;
-    padding-top: 7rem;
-    padding-bottom: 2px;
+    padding-top: 4rem;
 }
 #about h2{
     justify-content: center;
@@ -179,7 +206,7 @@ button{
 
 #skill{
     height: 100vh;
-     padding-top: 7rem;
+     padding-top: 4rem;
 }
 #skill h2{
     justify-content: center;
@@ -239,10 +266,9 @@ button{
 
 #proj{
     height: 100vh;
-    padding-top: 8rem;
+    padding-top: 4rem;
     background-color: rgb(255, 255, 255);
     text-align: center;
-    
 }
 
 #proj h2{
@@ -291,7 +317,7 @@ button{
 
 #contact{
     height: 70vh;
-    padding-top: 7rem;
+    padding-top: 4rem;
 }
 #contact h2{
     display: flex;
@@ -356,58 +382,4 @@ button{
     align-items: center;
     padding:1rem;
     margin-bottom: 3px;
-    padding-top: 5rem;
-}
-/*------------------res-------------*/
-
-#res{
-    padding-top: 8rem;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    padding-left:20rem;
-    padding-right: 20rem;
-    padding-bottom: 30px;
-
-}
-#res1{
-    padding-top: 2rem;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    padding-left:20rem;
-    padding-right: 20rem;
-    padding-bottom: 30px;
-    
-}
-#res h4{
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    font-weight: bold;
-    width: 100%;
-    padding: 1rem;   
-    margin-bottom: 20px;
-    padding-bottom: 1px;
-
-}
-#res1 h4{
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    font-weight: bold;
-    width: 100%;
-    padding: 1rem;   
-    margin-bottom: 20px;
-    padding-bottom: 1px;
-
-}
-.res p1{
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-   
-    transition: transform 0.5s ease;
-}
-
-.res p{
-     padding-bottom: 20px;
-
 }
